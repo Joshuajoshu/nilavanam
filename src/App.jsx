@@ -1,5 +1,15 @@
 import './App.css'
 import mainImage from './images/main.png'
+import img1 from './images/1.jpeg'
+import img2 from './images/2.jpeg'
+import img3 from './images/3.jpeg'
+import img4 from './images/4.jpeg'
+import img5 from './images/5.jpeg'
+import img6 from './images/6.jpeg'
+import img7 from './images/7.jpeg'
+import img8 from './images/8.jpeg'
+import img9 from './images/9.jpeg'
+import img10 from './images/10.jpeg'
 
 function App() {
   return (
@@ -66,6 +76,74 @@ function App() {
                   <span>📞</span> Call +1 (234) 567-890
                 </a>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Property Gallery Section */}
+      <section className="gallery">
+        <h2>Property Gallery</h2>
+        <p className="gallery-subtitle">Explore all angles of this magnificent property</p>
+        <div className="gallery-grid">
+          <div className="gallery-item">
+            <img src={img1} alt="Property View 1" className="gallery-image" />
+            <div className="gallery-overlay">
+              <span className="gallery-number">01</span>
+            </div>
+          </div>
+          <div className="gallery-item">
+            <img src={img2} alt="Property View 2" className="gallery-image" />
+            <div className="gallery-overlay">
+              <span className="gallery-number">02</span>
+            </div>
+          </div>
+          <div className="gallery-item">
+            <img src={img3} alt="Property View 3" className="gallery-image" />
+            <div className="gallery-overlay">
+              <span className="gallery-number">03</span>
+            </div>
+          </div>
+          <div className="gallery-item">
+            <img src={img4} alt="Property View 4" className="gallery-image" />
+            <div className="gallery-overlay">
+              <span className="gallery-number">04</span>
+            </div>
+          </div>
+          <div className="gallery-item">
+            <img src={img5} alt="Property View 5" className="gallery-image" />
+            <div className="gallery-overlay">
+              <span className="gallery-number">05</span>
+            </div>
+          </div>
+          <div className="gallery-item">
+            <img src={img6} alt="Property View 6" className="gallery-image" />
+            <div className="gallery-overlay">
+              <span className="gallery-number">06</span>
+            </div>
+          </div>
+          <div className="gallery-item">
+            <img src={img7} alt="Property View 7" className="gallery-image" />
+            <div className="gallery-overlay">
+              <span className="gallery-number">07</span>
+            </div>
+          </div>
+          <div className="gallery-item">
+            <img src={img8} alt="Property View 8" className="gallery-image" />
+            <div className="gallery-overlay">
+              <span className="gallery-number">08</span>
+            </div>
+          </div>
+          <div className="gallery-item">
+            <img src={img9} alt="Property View 9" className="gallery-image" />
+            <div className="gallery-overlay">
+              <span className="gallery-number">09</span>
+            </div>
+          </div>
+          <div className="gallery-item">
+            <img src={img10} alt="Property View 10" className="gallery-image" />
+            <div className="gallery-overlay">
+              <span className="gallery-number">10</span>
             </div>
           </div>
         </div>
