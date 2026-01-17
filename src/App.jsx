@@ -89,61 +89,61 @@ function App() {
           <div className="gallery-item">
             <img src={img1} alt="Property View 1" className="gallery-image" />
             <div className="gallery-overlay">
-              <span className="gallery-number">01</span>
+              <img src={img1} alt="Property View 1 Full" />
             </div>
           </div>
           <div className="gallery-item">
             <img src={img2} alt="Property View 2" className="gallery-image" />
             <div className="gallery-overlay">
-              <span className="gallery-number">02</span>
+              <img src={img2} alt="Property View 2 Full" />
             </div>
           </div>
           <div className="gallery-item">
             <img src={img3} alt="Property View 3" className="gallery-image" />
             <div className="gallery-overlay">
-              <span className="gallery-number">03</span>
+              <img src={img3} alt="Property View 3 Full" />
             </div>
           </div>
           <div className="gallery-item">
             <img src={img4} alt="Property View 4" className="gallery-image" />
             <div className="gallery-overlay">
-              <span className="gallery-number">04</span>
+              <img src={img4} alt="Property View 4 Full" />
             </div>
           </div>
           <div className="gallery-item">
             <img src={img5} alt="Property View 5" className="gallery-image" />
             <div className="gallery-overlay">
-              <span className="gallery-number">05</span>
+              <img src={img5} alt="Property View 5 Full" />
             </div>
           </div>
           <div className="gallery-item">
             <img src={img6} alt="Property View 6" className="gallery-image" />
             <div className="gallery-overlay">
-              <span className="gallery-number">06</span>
+              <img src={img6} alt="Property View 6 Full" />
             </div>
           </div>
           <div className="gallery-item">
             <img src={img7} alt="Property View 7" className="gallery-image" />
             <div className="gallery-overlay">
-              <span className="gallery-number">07</span>
+              <img src={img7} alt="Property View 7 Full" />
             </div>
           </div>
           <div className="gallery-item">
             <img src={img8} alt="Property View 8" className="gallery-image" />
             <div className="gallery-overlay">
-              <span className="gallery-number">08</span>
+              <img src={img8} alt="Property View 8 Full" />
             </div>
           </div>
           <div className="gallery-item">
             <img src={img9} alt="Property View 9" className="gallery-image" />
             <div className="gallery-overlay">
-              <span className="gallery-number">09</span>
+              <img src={img9} alt="Property View 9 Full" />
             </div>
           </div>
           <div className="gallery-item">
             <img src={img10} alt="Property View 10" className="gallery-image" />
             <div className="gallery-overlay">
-              <span className="gallery-number">10</span>
+              <img src={img10} alt="Property View 10 Full" />
             </div>
           </div>
         </div>
