@@ -151,6 +151,17 @@ function App() {
         </div>
       </section>
 
+      {/* More Images and Videos Section */}
+      <section className="media-section">
+        <div className="media-container">
+          <h2>Explore More</h2>
+          <p>View additional images, videos, and property details</p>
+          <a href="https://drive.google.com/drive/folders/1GC3MDb5BMk4heyEKDNhSLPqbZ0YfrpVZ" target="_blank" rel="noopener noreferrer" className="media-button">
+            <span>📸</span> More Images and Videos
+          </a>
+        </div>
+      </section>
+
       {/* About Section */}
       <section className="about">
         <h2>About Elite Homes Realty</h2>
