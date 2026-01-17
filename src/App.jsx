@@ -1,4 +1,5 @@
 import './App.css'
+import mainImage from './images/main.png'
 
 function App() {
   return (
@@ -18,10 +19,14 @@ function App() {
 
       {/* Hero Section with Property Showcase */}
       <header className="hero">
-        <div className="hero-content">
-          <h2>Find Your Dream Home</h2>
-          <p>Premium Properties in Prime Locations</p>
-          <button className="cta-button">View Listings</button>
+        <div className="hero-image-container">
+          <img src={mainImage} alt="Luxury Property" className="hero-image" />
+          <div className="hero-overlay"></div>
+          <div className="hero-content">
+            <h2>Find Your Dream Home</h2>
+            <p>Premium Properties in Prime Locations</p>
+            <button className="cta-button">View Listings</button>
+          </div>
         </div>
       </header>
 
