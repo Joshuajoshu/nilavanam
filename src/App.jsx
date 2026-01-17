@@ -68,7 +68,7 @@ function App() {
               </div>
               <p className="property-description">
                 This stunning luxury villa offers exceptional architecture and design. 
-                Located in a premium location with modern amenities, beautiful landscaping, 
+                Located in a Coimbatore with modern amenities, beautiful landscaping, 
                 and sophisticated finishes throughout. Perfect for discerning buyers looking 
                 for an upscale residential property.
               </p>
@@ -217,7 +217,7 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <p>&copy; 2026 Elite Homes Realty. All rights reserved.</p>
+        <p>&copy; 2026 Agam Homes. All rights reserved.</p>
       </footer>
     </div>
   )
