@@ -469,9 +469,18 @@ body {
 
 .feature-icon {
   display: inline-block;
+  font-weight: bold;
   font-size: clamp(2rem, 5vw, 2.5rem);
-  color: #ffd700;
+  color: #131311;
   margin-bottom: 1rem;
+}
+
+.feature-logo {
+  width: clamp(60px, 12vw, 100px);
+  height: clamp(60px, 12vw, 100px);
+  object-fit: contain;
+  margin: 0 auto 1rem auto;
+  display: block;
 }
 
 .feature h3 {

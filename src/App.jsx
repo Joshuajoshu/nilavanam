@@ -1,5 +1,7 @@
 import './App.css'
 import mainImage from './images/main.png'
+import eduLogo from './assets/edu_logo.png'
+import hspLogo from './assets/hsp_logo.png'
 import img1 from './images/1.jpeg'
 import img2 from './images/2.jpeg'
 import img3 from './images/3.jpeg'
@@ -164,24 +166,24 @@ function App() {
         <h2>Why Choose Us</h2>
         <div className="features-grid">
           <div className="feature">
-            <span className="feature-icon">✓</span>
-            <h3>Expert Team</h3>
-            <p>Experienced agents with local market knowledge</p>
+            <span className="feature-icon">15</span>
+            <h3>Minutes</h3>
+            <p>15 Minutes travel to Airport</p>
           </div>
           <div className="feature">
-            <span className="feature-icon">✓</span>
-            <h3>Quality Properties</h3>
-            <p>Carefully curated listings in prime locations</p>
+            <span className="feature-icon">3 KM</span>
+            <h3>Accessibilty</h3>
+            <p>Just 3 km from the national highway</p>
           </div>
           <div className="feature">
-            <span className="feature-icon">✓</span>
-            <h3>Fast Process</h3>
-            <p>Smooth transactions with dedicated support</p>
+            <img src={hspLogo} alt="Fast Process" className="feature-logo" />
+            <h3>Health Care</h3>
+            <p>Easy availability of hospitals</p>
           </div>
           <div className="feature">
-            <span className="feature-icon">✓</span>
-            <h3>Best Prices</h3>
-            <p>Competitive pricing and flexible terms</p>
+            <img src={eduLogo} alt="Best Prices" className="feature-logo" />
+            <h3>Education</h3>
+            <p>Walkable distance for the nearby Universities</p>
           </div>
         </div>
       </section>
