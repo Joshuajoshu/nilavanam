@@ -1,0 +1,470 @@
+/* ===== GENERAL STYLES ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+  line-height: 1.6;
+}
+
+.app {
+  width: 100%;
+}
+
+/* ===== STICKY NAVBAR ===== */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(135deg, #1a3a52 0%, #2d5a7b 100%);
+  color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.navbar-contact {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.navbar-contact a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.navbar-contact a:hover {
+  color: #ffd700;
+}
+
+.phone-icon {
+  font-size: 1.3rem;
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 6rem 2rem;
+  text-align: center;
+  background-image: linear-gradient(135deg, rgba(26, 58, 82, 0.8) 0%, rgba(45, 90, 123, 0.8) 100%),
+    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%231a3a52" width="1200" height="600"/></svg>');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+}
+
+.cta-button {
+  background-color: #ffd700;
+  color: #1a3a52;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+  background-color: #ffed4e;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== FEATURED PROPERTIES SECTION ===== */
+.featured-properties {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.featured-properties h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #1a3a52;
+  font-weight: 700;
+}
+
+.properties-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.property-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.property-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.property-image {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  background-color: #e0e0e0;
+}
+
+.property-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.property-card:hover .property-image img {
+  transform: scale(1.05);
+}
+
+.property-info {
+  padding: 1.5rem;
+}
+
+.property-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #1a3a52;
+}
+
+.price {
+  font-size: 1.8rem;
+  color: #ffd700;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.details {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.details-button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #1a3a52;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.details-button:hover {
+  background-color: #0f2233;
+}
+
+/* ===== ABOUT SECTION ===== */
+.about {
+  background-color: #f9f9f9;
+  padding: 4rem 2rem;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #1a3a52;
+  font-weight: 700;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* ===== FEATURES SECTION ===== */
+.features {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.features h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #1a3a52;
+  font-weight: 700;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.feature {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  display: inline-block;
+  font-size: 2.5rem;
+  color: #ffd700;
+  margin-bottom: 1rem;
+}
+
+.feature h3 {
+  color: #1a3a52;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.feature p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* ===== TESTIMONIALS SECTION ===== */
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonials h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #1a3a52;
+  font-weight: 700;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.testimonial {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  border-left: 4px solid #ffd700;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.testimonial p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.testimonial h4 {
+  color: #1a3a52;
+  font-size: 1rem;
+}
+
+/* ===== CONTACT SECTION ===== */
+.contact {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #1a3a52;
+  font-weight: 700;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-info p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.contact-info strong {
+  color: #1a3a52;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #ffd700;
+  box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.1);
+}
+
+.submit-button {
+  padding: 1rem;
+  background-color: #1a3a52;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0f2233;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background-color: #1a3a52;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .navbar-brand h1 {
+    font-size: 1.3rem;
+  }
+
+  .hero-content h2 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .featured-properties h2,
+  .features h2,
+  .testimonials h2,
+  .contact h2,
+  .about h2 {
+    font-size: 2rem;
+  }
+
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+
+  .properties-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-brand h1 {
+    font-size: 1rem;
+  }
+
+  .navbar-contact {
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .hero {
+    padding: 3rem 1rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .cta-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+  }
+}
