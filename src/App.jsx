@@ -18,7 +18,7 @@ function App() {
       <nav className="navbar sticky">
         <div className="navbar-container">
           <div className="navbar-brand">
-            <h1>Elite Homes Realty</h1>
+            <h1>Elite Homes Reality</h1>
           </div>
           <div className="navbar-contact">
             <span className="phone-icon">📞</span>
