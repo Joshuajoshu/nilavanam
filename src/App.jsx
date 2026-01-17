@@ -27,41 +27,40 @@ function App() {
 
       {/* Featured Properties Section */}
       <section className="featured-properties">
-        <h2>Featured Properties</h2>
-        <div className="properties-grid">
-          <div className="property-card">
-            <div className="property-image">
+        <h2>Our Exclusive Property</h2>
+        <div className="single-property-container">
+          <div className="property-card-featured">
+            <div className="property-image-featured">
               <img src="/images/property-1.jpg" alt="Luxury Villa" />
             </div>
-            <div className="property-info">
-              <h3>Luxury Villa</h3>
-              <p className="price">$850,000</p>
-              <p className="details">4 Beds | 3 Baths | 3,500 sqft</p>
-              <button className="details-button">View Details</button>
-            </div>
-          </div>
-
-          <div className="property-card">
-            <div className="property-image">
-              <img src="/images/property-2.jpg" alt="Modern Apartment" />
-            </div>
-            <div className="property-info">
-              <h3>Modern Apartment</h3>
-              <p className="price">$450,000</p>
-              <p className="details">2 Beds | 2 Baths | 1,200 sqft</p>
-              <button className="details-button">View Details</button>
-            </div>
-          </div>
-
-          <div className="property-card">
-            <div className="property-image">
-              <img src="/images/property-3.jpg" alt="Beachfront Home" />
-            </div>
-            <div className="property-info">
-              <h3>Beachfront Home</h3>
-              <p className="price">$1,250,000</p>
-              <p className="details">5 Beds | 4 Baths | 5,000 sqft</p>
-              <button className="details-button">View Details</button>
+            <div className="property-info-featured">
+              <h3>Premium Luxury Villa</h3>
+              <div className="property-details-list">
+                <div className="detail-item">
+                  <span className="detail-label">Bedrooms</span>
+                  <span className="detail-value">4</span>
+                </div>
+                <div className="detail-item">
+                  <span className="detail-label">Bathrooms</span>
+                  <span className="detail-value">3</span>
+                </div>
+                <div className="detail-item">
+                  <span className="detail-label">Square Feet</span>
+                  <span className="detail-value">3,500 sqft</span>
+                </div>
+              </div>
+              <p className="property-description">
+                This stunning luxury villa offers exceptional architecture and design. 
+                Located in a premium location with modern amenities, beautiful landscaping, 
+                and sophisticated finishes throughout. Perfect for discerning buyers looking 
+                for an upscale residential property.
+              </p>
+              <div className="price-contact-section">
+                <p className="price-label">For Pricing Information:</p>
+                <a href="tel:+1234567890" className="contact-button">
+                  <span>📞</span> Call +1 (234) 567-890
+                </a>
+              </div>
             </div>
           </div>
         </div>
