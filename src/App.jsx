@@ -20,11 +20,11 @@ function App() {
       <nav className="navbar sticky">
         <div className="navbar-container">
           <div className="navbar-brand">
-            <h1>Elite Homes Reality</h1>
+            <h1>Agam Homes</h1>
           </div>
           <div className="navbar-contact">
             <span className="phone-icon">📞</span>
-            <a href="tel:+1234567890">+1 (234) 567-890</a>
+            <a href="tel:9894706397">+919894706397</a>
           </div>
         </div>
       </nav>
@@ -36,8 +36,8 @@ function App() {
           <div className="hero-overlay"></div>
           <div className="hero-content">
             <h2>Find Your Dream Home</h2>
-            <p>Premium Properties in Prime Locations</p>
-            <button className="cta-button">View Listings</button>
+            <p>Premium Properties in Prime Location</p>
+            <a href="#gallery" className="cta-button">View Catalogue</a>
           </div>
         </div>
       </header>
@@ -74,8 +74,8 @@ function App() {
               </p>
               <div className="price-contact-section">
                 <p className="price-label">For Pricing Information:</p>
-                <a href="tel:+1234567890" className="contact-button">
-                  <span>📞</span> Call +1 (234) 567-890
+                <a href="tel:9894706397" className="contact-button">
+                  <span>📞</span> Call +91 9894706397
                 </a>
               </div>
             </div>
@@ -84,7 +84,7 @@ function App() {
       </section>
 
       {/* Property Gallery Section */}
-      <section className="gallery">
+      <section className="gallery" id="gallery">
         <h2>Property Gallery</h2>
         <p className="gallery-subtitle">Explore all angles of this magnificent property</p>
         <div className="gallery-grid">
@@ -164,11 +164,9 @@ function App() {
 
       {/* About Section */}
       <section className="about">
-        <h2>About Elite Homes Realty</h2>
+        <h2>About Agam Homes </h2>
         <p>
-          With over 20 years of experience in the real estate market, we pride ourselves on providing 
-          exceptional service and finding the perfect properties for our clients. Our dedicated team 
-          of professionals is committed to making your real estate dreams a reality.
+          This home is thoughtfully designed to offer comfort, quality, and lasting value. Built by highly experienced professionals, the villa reflects superior craftsmanship and the use of premium-quality materials throughout. Every detail has been carefully planned, from excellent ventilation that ensures natural light and airflow to a well-structured duplex layout that enhances space and functionality. This villa is more than just a house—it is a place designed to elevate everyday living.
         </p>
       </section>
 
@@ -199,33 +197,14 @@ function App() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="testimonials">
-        <h2>Client Testimonials</h2>
-        <div className="testimonials-grid">
-          <div className="testimonial">
-            <p>"Elite Homes Realty helped us find our dream house. Highly professional team!"</p>
-            <h4>- Sarah & John Mitchell</h4>
-          </div>
-          <div className="testimonial">
-            <p>"Best real estate experience ever. They guided us through every step."</p>
-            <h4>- Maria Garcia</h4>
-          </div>
-          <div className="testimonial">
-            <p>"Outstanding service and attention to detail. Highly recommended!"</p>
-            <h4>- Robert Chen</h4>
-          </div>
-        </div>
-      </section>
-
       {/* Contact Section */}
       <section className="contact">
         <h2>Get in Touch</h2>
         <div className="contact-content">
           <div className="contact-info">
-            <p><strong>Phone:</strong> +1 (234) 567-890</p>
-            <p><strong>Email:</strong> info@elitehomesrealty.com</p>
-            <p><strong>Address:</strong> 123 Real Estate Ave, City, State 12345</p>
+            <p><strong>Phone:</strong> +91 9894706397</p>
+            <p><strong>Email:</strong> jegadeeshieil@gmail.com</p>
+            <p><strong>Address:</strong> No. 47 Mounasamy Nagar,Vk Road Vilankurichi Coimbatore 641035</p>
           </div>
           <form className="contact-form">
             <input type="text" placeholder="Your Name" required />
