@@ -46,7 +46,7 @@ function App() {
         <div className="single-property-container">
           <div className="property-card-featured">
             <div className="property-image-featured">
-              <img src="/images/property-1.jpg" alt="Luxury Villa" />
+              <img src={mainImage} alt="Premium Luxury Villa" />
             </div>
             <div className="property-info-featured">
               <h3>Premium Luxury Villa</h3>
